@@ -1,0 +1,84 @@
+/* Add google font imports */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* VARIABLES */
+
+:root {
+  --mainBackgroundColor: #f4f7f5;
+  --blueBackgroundColor: #f0f8ff;
+  --mainBlackColor: #1a1a1a;
+  --mainHighlightColor: #0197f6;
+  --projectsBackgroundColor: #c6dded;
+  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  --smallWidth: 85vw;
+  --fullWidth: 1170px;
+  --maxWidth: 40rem;
+}
+
+/* GLOBAL STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--mainBackgroundColor);
+  color: var(--mainBlackColor);
+}
+
+.playfair-display-h1 {
+  font-family: 'Playfair Display', serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 3.2rem;
+  text-align: center;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: var(--mainHighlightColor);
+  font-size: 2.24rem;
+}
+
+h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: var(--mainHighlightColor);
+  font-size: 1rem;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1.25rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--mainHighlightColor);
+  font-size: 1rem;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  padding: 5px;
+}
+
+@media screen and (max-width: 50rem) {
+  .playfair-display-h1 {
+    font-size: 1.875rem;
+  }
+}

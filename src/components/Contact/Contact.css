@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Chathura:wght@100;300;400;700;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+.contact-section {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content horizontally */
+  align-items: center;
+}
+
+.contact-section h1 {
+  margin-bottom: 1.25rem;
+}
+
+.contacts div {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  box-shadow: 0.125rem 0.125rem 0.125rem 0.0625rem rgba(0, 0, 0, 0.5);
+  gap: 1.25rem;
+  width: 25rem;
+  height: 3.125rem;
+  margin-bottom: 0.625rem;
+  border-radius: 0.3125rem;
+}
+
+.info h4 {
+  margin-top: 0.9375rem;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.download-cv {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0.125rem;
+  text-align: center;
+}
+
+.desc {
+  margin-top: 0.625rem;
+  font-size: 0.9375rem;
+  margin-bottom: 0.625rem;
+}
+
+.download-btn {
+  cursor: pointer;
+  padding: 0.6125rem 0.625rem;
+  width: fit-content;
+  margin: 0 auto;
+  border: none;
+  border-radius: 3px;
+  background-color: rgba(198, 221, 237, 0.4);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
+}
+
+.download-btn:hover {
+  background-color: rgba(198, 221, 237, 0.8);
+}
+
+.download-btn a {
+  font-family: 'Antic Didone', serif;
+  font-weight: 900;
+}
+
+.footer {
+  color: #1a1a1a;
+  margin-top: 0.625rem;
+}
+
+.info :hover {
+  color: #1a1a1a;
+}
+
+@media screen and (max-width: 800px) {
+  .contacts div {
+    width: 18.75rem;
+    height: 2.5rem;
+    border-radius: 0.3125rem;
+  }
+  .info h4 {
+    margin-top: 0.725rem;
+    text-align: center;
+  }
+}

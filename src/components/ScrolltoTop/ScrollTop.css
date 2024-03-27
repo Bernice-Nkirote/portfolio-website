@@ -1,0 +1,14 @@
+.top-btn {
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  padding: 0.75rem;
+  background-color: rgba(198, 221, 237, 0.5);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  margin-right: 5px;
+}
+.iconTop {
+  font-size: 1.5rem;
+}

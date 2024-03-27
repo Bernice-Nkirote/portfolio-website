@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Chathura:wght@100;300;400;700;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 2rem;
+}
+
+.main-photo {
+  position: relative;
+  width: 100%;
+  max-width: 25rem;
+  height: 28.125rem;
+  background-color: #f0f0f0;
+  border-radius: 0.625rem;
+}
+
+.mainImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.intro {
+  position: absolute;
+  top: 4.375rem;
+  transform: translateX(calc(100% - -9.375rem));
+  width: 12.5rem;
+  height: auto;
+  background-color: #f0f0f0;
+  padding: 0.625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.abt-btn {
+  padding: 8px 5px;
+  border-radius: 3px;
+  border: none;
+  background-color: #f4f7f510;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
+}
+.abt-btn:hover {
+  background-color: rgba(198, 221, 237, 0.4);
+}
+.abt-btn a {
+  font-size: 0.9375rem;
+  font-family: 'Antic Didone', serif;
+  font-weight: 900;
+  color: #1a1a1a;
+}
+
+.abt-btn a:hover {
+  font-size: 1rem;
+}
+
+.abt-icon {
+  margin-left: 8px;
+  font-weight: 100;
+}
+
+@media screen and (max-width: 50rem) {
+  .main-photo {
+    width: 18.625rem;
+    height: 22.75rem;
+    margin-bottom: 0.625rem;
+    overflow: hidden;
+    box-shadow: 0.125rem 0.125rem 0.1875rem 0px rgba(0, 0, 0, 0.5);
+  }
+
+  .intro {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.625rem;
+    box-shadow: none;
+    transform: none;
+    top: -100%;
+    left: 0;
+    right: 0;
+    background-color: #f0f0f0bb;
+    backdrop-filter: blur(5px);
+    transition: 2s;
+  }
+
+  .main-photo:hover .intro {
+    top: 0;
+  }
+}

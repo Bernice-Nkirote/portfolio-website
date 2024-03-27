@@ -1,0 +1,80 @@
+.service-section {
+  text-align: center;
+  height: auto;
+  padding: 3.125rem;
+  margin-top: 1.25rem;
+}
+
+.service-section h1 {
+  margin-bottom: 1.25rem;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(7.25rem, 1fr));
+  gap: 1.25rem;
+}
+
+.skill {
+  background-color: transparent;
+  padding: 1.25rem;
+  border-radius: 0.625rem;
+  box-shadow: 1px 2px 4px rgba(198, 221, 237, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.skills-title {
+  line-height: 50px;
+}
+.service {
+  color: #1a1a1a;
+  font-size: 18px;
+}
+
+.icon {
+  font-size: 50px;
+  padding: 10px;
+  color: rgba(198, 221, 237, 1);
+}
+.service-body {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background-color: #c6dded93;
+  backdrop-filter: blur(5px);
+  border-radius: 0.625rem;
+  padding: 30px;
+  transition: 2s;
+}
+
+.skill:hover .service-body {
+  right: 0;
+}
+
+.text-service {
+  align-items: center;
+  font-weight: 500;
+}
+.img-container {
+  overflow: hidden;
+}
+.icon-img {
+  display: inline;
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 50rem) {
+  .services {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+}
