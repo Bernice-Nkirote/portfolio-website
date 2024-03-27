@@ -59,7 +59,11 @@ function Contacts() {
           Click below to snag my CV and let the adventure begin.
         </h5>
         <button className='download-btn'>
-          <a href='https://docs.google.com/document/d/1o3UPH5ZqFiu_rfmM1FjhfQBqBT-hHfGS7_ZQsvupScc/edit?usp=sharing'>
+          <a
+            href='https://drive.google.com/file/d/1336Q7bk1KXK72BlReCeBi4LMNdLzKfNz/view?usp=sharing&export=download'
+            download='BERNICE_CV.pdf'
+            target='blank'
+          >
             Download CV <FontAwesomeIcon icon={faDownload} />
           </a>
         </button>

@@ -17,7 +17,7 @@ function Home() {
               alt='bernice'
             />
             <div className='intro'>
-              <h4>Developer/ Frontend/ Backend/ Procurement Professional</h4>
+              <h4>Full-Stack Developer/ Procurement Professional</h4>
               <p>
                 How does a procurement professional turn into a coding virtuoso?
                 Let me take you on a journey from supply chains to code lines,
