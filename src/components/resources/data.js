@@ -58,7 +58,7 @@ export const projects = [
   {
     id: 1,
     name: ' Cocktail Bar',
-    img: '/public/portfolio-images/cocktails.jpg',
+    img: 'portfolio-images/cocktails.jpg',
     url: 'https://github.com/Bernice-Nkirote/cocktail-app.git',
     icon: <FontAwesomeIcon icon={faGithub} />,
     viewPage: 'https://cocktailber.netlify.app/',
@@ -67,7 +67,7 @@ export const projects = [
   {
     id: 2,
     name: ' Tic-tac-toe',
-    img: '/public/portfolio-images/tictactoe.jpg',
+    img: 'portfolio-images/tictactoe.jpg',
     url: 'https://github.com/Bernice-Nkirote/Tic-Tac-Toe.git',
     icon: <FontAwesomeIcon icon={faGithub} />,
     viewPage: 'https://nkiro-tictactoe.netlify.app/',

@@ -78,24 +78,24 @@ export const deviconsData = {
     },
     {
       name: 'Zoom',
-      imgUrl: '/public/portfolio-images/zoom.jpg',
+      imgUrl: 'portfolio-images/zoom.jpg',
     },
     {
       name: 'Skype',
-      imgUrl: '/public/portfolio-images/skype.jpg',
+      imgUrl: 'portfolio-images/skype.jpg',
     },
     {
       name: 'PowerPoint',
-      imgUrl: '/public/portfolio-images/powerpoint.jpg',
+      imgUrl: 'portfolio-images/powerpoint.jpg',
     },
     {
       name: 'Microsoft Teams',
-      imgUrl: '/public/portfolio-images/teams.jpg',
+      imgUrl: 'portfolio-images/teams.jpg',
     },
 
     {
       name: 'ChatGpt',
-      imgUrl: '/public/portfolio-images/chat-gpt.jpg',
+      imgUrl: 'portfolio-images/chat-gpt.jpg',
     },
   ],
 };
